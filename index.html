@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Love Calculator</h1>
+        <table>
+            <tr>
+               <td><label for="sname">Your Name:</label></td>
+               <td><input type="text" id="sname" name="sname" placeholder="Enter your name"></td> 
+            </tr>
+            <tr>
+                <td><label for="fname">Partner's Name:</label></td>
+                <td><input type="text" id="fname" name="fname" placeholder="Enter partner's name"></td> 
+             </tr>
+        </table>
+        <div class="button-center">
+            <button id="calculate">Calculate Love Percentage</button>
+        </div>
+        <div class="card-result" id="result">
+            <div class="flex-container">
+                <div class="mb-3">
+                    <p class="lovePercent font-bold" id="percent-love"></p>
+                    <p class="theResult font-medium" id="the-result"></p>
+                </div>
+            </div>
+        </div>    
+    </div>
+</body>
+</html>

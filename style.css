@@ -1,0 +1,112 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #F1F5F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+input {
+    border: 2px solid #C9D8E4;
+}
+
+
+button {
+    background-color: #FF7F11;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.button-center {
+    text-align: center;
+}
+
+input, button {
+    border-radius: 5px;
+    font-size: 1.3rem;
+    padding: 8px;
+}
+
+div.container{
+    background-color: white;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+.card-result {
+    display: none;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #969393;
+    margin: 30px 0;
+    padding: 15px;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.font-medium {
+    font-weight: 400;
+}
+
+.font-bold {
+    font-weight: 600;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+    margin-top: 0;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p {
+    margin-top: 0;
+}
+
+.mb-3 {
+    margin-bottom: 1.2rem;
+}
+
+
+.lovePercent {
+    color: #14527B;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.theResult {
+    color: #14527B;
+    font-size: 1rem;
+    margin-bottom: 0px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+.flex-container > div {
+    flex: 0 0 50%;
+    width: 50%;
+}
